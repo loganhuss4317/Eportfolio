@@ -81,7 +81,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-  background-color: #6030b1;
+  background-color: #176bef;
   padding: 8px 20px;
   border-radius: 50px;
   color: white;
@@ -89,18 +89,18 @@ nav {
 }
 
 .nav__link--anchor-primary:hover {
-  background-color: #5d3eff;
+  background-color: #242424;
 }
 
 .personal__logo {
   font-size: 24px;
-  color: #6030b1;
+  color: #176bef;
   margin: 0 12px;
   font-weight: bold;
 }
 
 .text--purple {
-  color: #6030b1;
+  color: #176bef;
 }
 
 /* About Me */
@@ -162,7 +162,7 @@ nav {
 }
 
 .text--purple {
-  color: #6030b1;
+  color: #176bef;
 }
 
 .about-me__img--container {
@@ -225,3 +225,15 @@ nav {
     opacity: 1;
 }
 
+/* Projects */
+
+.project__img {
+    width: 100%;
+}
+
+.project__wrapper {
+    display: flex;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    overflow: hidden;
+}
